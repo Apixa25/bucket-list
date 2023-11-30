@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import BucketForm from './BucketForm';
-import { clear } from 'console';
 
 function Bucket(props) {
   const [edit, setEdit] = useState({
